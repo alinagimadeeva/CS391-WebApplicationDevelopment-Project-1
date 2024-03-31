@@ -1,0 +1,345 @@
+.bg-light-blue {
+    background-color: #80b7c9;
+}
+
+.logo {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.company-name {
+    color: white;
+    font-size: 25px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.centered-nav {
+    margin: 0 auto;
+}
+
+.nav-link {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.nav-link:hover {
+    color: #025d7be9;
+}
+
+.title {
+    margin-bottom: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: #025d7be9;
+}
+
+.image-home {
+    width: 550px;
+    border-radius: 15px;
+    float: right;
+}
+
+.row .special-text {
+    color: #c44674;
+}
+
+.col-md-6 p {
+    font-weight: 650;
+}
+
+.col-md-6 h1 {
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.review {
+    margin-bottom: 45px;
+    padding: 24px 32px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    transition: all 0.3s linear;
+}
+
+.review:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.review img {
+    width: 110px;
+    margin-bottom: 20px;
+}
+
+.review-text {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.col-md-3 {
+    margin: auto;
+}
+
+.container-fliud {
+    background-color: rgba(164, 164, 164, 0.1);
+}
+
+.text-about {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.btn-about,
+.btn-application-form {
+    color: white;
+    background-color: #4fa663;
+    width: 80%;
+    max-width: 400px;
+    height: 50px;
+    border-radius: 50px;
+    font-size: 20px;
+    padding: 10px 20px;
+    margin-left: 20px;
+}
+
+.btn-about:hover,
+.btn-application-form:hover {
+    color: white;
+    background-color: #2e7d4d;
+}
+
+.interested-text {
+    color: #025d7be9;
+}
+
+.teacher-container {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    padding: 25px;
+}
+
+.teacher-desc {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s linear;
+    text-align: center;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.teacher-desc:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.img-container {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+#person-img {
+    width: 100%;
+    display: block;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    position: relative;
+}
+
+#job {
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    color: #80b7c9;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#info {
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: 500;
+}
+
+.prev-btn,
+.next-btn {
+    color: #80b7c9;
+    font-size: 25px;
+    background: transparent;
+    border-color: transparent;
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.prev-btn:hover,
+.next-btn:hover {
+    color: #025d7be9;
+}
+
+.lessons-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+
+.lesson {
+    flex-basis: calc(20% - 20px);
+    margin: 10px;
+    border-radius: 20px;
+    padding: 25px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s linear;
+}
+
+.lesson:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+}
+
+.lesson p {
+    margin: 0;
+    font-weight: 500;
+    text-align: center;
+}
+
+.delete-button {
+    align-items: center;
+    background-color: #ff6b6b;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    padding: 3px 8px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    margin-top: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.delete-button:hover {
+    background-color: #cf4a4a;
+}
+
+.page {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container-parent {
+    padding: 20px;
+}
+
+.container-form {
+    max-width: 500px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: auto;
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.7);
+    margin-top: 20px;
+}
+
+.container-form p {
+    margin-bottom: 7px;
+    font-weight: 600;
+}
+
+.background-color {
+    background-color: #fde9ec;
+}
+
+.container-form h1 {
+    text-align: center;
+}
+
+/* Стили для инпутов */
+.form-control {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.container-form .btn-success {
+    padding: 10px 20px;
+    background-color: #4fa663;
+    color: white;
+    border: none;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+    font-size: 20px;
+}
+
+.container-form .btn-success:hover {
+    color: white;
+    background-color: #2e7d4d;
+}
+
+.form-check-input {
+    margin-right: 5px;
+}
+
+.form-check-label {
+    margin-left: 5px;
+}
+
+.input-wrapper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.input-wrapper input {
+    flex: 1;
+}
+
+.thankyou-text {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+    text-align: center;
+    color: #c44674;
+}
+
+.thankyou-image {
+    display: block;
+    margin: auto;
+    max-width: 90%;
+    border-radius: 5px;
+}
+
+.thankyou-link {
+    display: block;
+    margin-top: 15px;
+    text-decoration: none;
+    color: #28a745;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+footer {
+    margin-top: auto;
+    text-align: center;
+}
+
+footer p {
+    margin: 10px;
+    display: inline-block;
+}
