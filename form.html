@@ -33,7 +33,7 @@
     <div class="container-parent">
         <div class="container-form mt-4">
             <h1>Application form</h1> <br>
-            <form method="get">
+            <form method="get" onsubmit="return saveApplication(event)">
                 <div>
                     <p>Choose the suitable class:</p>
                     <div class="form-check">
@@ -91,7 +91,7 @@
                         </label>
                     </div>
                 </div><br>
-                <button class="btn btn-success" type="submit" onclick="saveApplication(event)">Send</button>
+                <button class="btn btn-success" type="submit">Send</button>
             </form>
         </div>
     </div>
